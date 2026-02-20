@@ -16,7 +16,7 @@ const zucchine = [
 const long = [];
 const short = [];
 
-zucchine.filter((zucchina) => {
+zucchine.forEach((zucchina) => {
   const zucchinaLength = zucchina.length;
 
   if (zucchinaLength >= 15) {
